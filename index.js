@@ -7,7 +7,6 @@ const loadTeddies = async () => {
     const response = await fetch('http://localhost:3000/api/teddies');
     const json = await response.json();
     json.forEach(teddy => {
-        console.log(teddy)
         //Set class of elements depending on Teddy's name
         //Title
         var title = document.createElement("h2");
