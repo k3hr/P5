@@ -1,0 +1,19 @@
+html {
+    font-family: 'Roboto', sans-serif;
+    height: 100%;
+    text-decoration: none;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+header {
+    background-color: #579C87;
+    text-align: center;
+    color: rgb(255, 247, 97);
+    margin-top: 0%;
+    margin-left: 0%;
+    height: 10rem;
+    text-decoration: none;
+    width: 100%;
+}
